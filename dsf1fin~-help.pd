@@ -1,0 +1,23 @@
+#N canvas 140 272 593 300 10;
+#X obj 21 172 dsf1fin~;
+#X floatatom 21 65 5 0 0 1 Frequency_in_Hz - -, f 5;
+#X floatatom 38 91 5 0 0 1 Modulation_ratio - -, f 5;
+#X floatatom 56 121 5 0 99 1 Amplitude_of_overtone_spectrum_(a) - -
+, f 5;
+#X floatatom 74 148 5 0 50 1 Number_of_overtones_(n) - -, f 5;
+#X obj 21 217 dac~;
+#X msg 247 54 \; pd dsp 1;
+#X msg 320 54 \; pd dsp 0;
+#X text 202 191 Modulation ration: 50 := 0.5*Fc \, 100 = 1*Fc etc.
+Get harmonic spectrum with values of 100 \, 200 \, 300 etc., f 32
+;
+#X text 342 121 choose a < 100;
+#X text 24 7 Discrete summation formula (DSF) adapted from Moorer 1975
+This module creates a 1-sided finite spectrum.;
+#X text 335 270 by bilberry79;
+#X connect 0 0 5 0;
+#X connect 0 0 5 1;
+#X connect 1 0 0 0;
+#X connect 2 0 0 1;
+#X connect 3 0 0 2;
+#X connect 4 0 0 3;
