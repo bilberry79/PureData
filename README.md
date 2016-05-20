@@ -2,10 +2,13 @@
 PureDate patches and abstracts
 
 <h3>Audio analyzer</h3>
-`[abstract_lin_spec_2]` : A tool to visualize the frequency spectrum and the wave form of two audio inputs. 
+`[abs_spec_duo]` : A tool to visualize the frequency spectrum and the wave form of two audio inputs. 
 ![alt text](https://github.com/bilberry79/PureData/blob/master/pictures/abs_spec_duo.PNG)
 
-`[abstract_spec]` : A tool to visualize the frequency spectrum in a logarithmic and linear view of one audio input. 
+`[abs_spec]` : A tool to visualize the frequency spectrum in a <b>logarithmic</b> and linear view of one audio input.
+
+`[abs_spec_comp]` : A compact version of `[abs_spec_duo]` with only one input.
+![alt text](https://github.com/bilberry79/PureData/blob/master/pictures/abs_spec_comp.PNG)
 
 <h3>Dynamic Block Switching Synthesis</h3>
 `DBS.pd`
