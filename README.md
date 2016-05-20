@@ -2,10 +2,13 @@
 PureDate patches and abstracts
 
 <h3>Audio analyzer</h3>
-`[abs_spec_duo]` : A tool to visualize the frequency spectrum and the wave form of two audio inputs. 
+Sometimes it's handy to see the frequency spectrum and the wave form of your audio output, e.g. when you want to compare two different oscillator designs.
+
+`[abs_spec_duo]` : Visualizes the frequency spectrum and the wave form of two audio inputs. 
 ![alt text](https://github.com/bilberry79/PureData/blob/master/pictures/abs_spec_duo.PNG)
 
-`[abs_spec]` : A tool to visualize the frequency spectrum in a <b>logarithmic</b> and linear view of one audio input.
+`[abs_spec]` : Visualizes the frequency spectrum in a <b>logarithmic</b> and linear view of one audio input.
+![alt text](https://github.com/bilberry79/PureData/blob/master/pictures/abs_spec.PNG)
 
 `[abs_spec_comp]` : A compact version of [abs_spec_duo] with only one input.
 ![alt text](https://github.com/bilberry79/PureData/blob/master/pictures/abs_spec_comp.PNG)
