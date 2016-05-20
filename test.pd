@@ -1,2 +1,0 @@
-#N canvas 0 50 450 300 10;
-#X obj 79 38 phasor~ 440;
